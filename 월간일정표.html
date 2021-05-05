@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<style>
+  @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+  *{
+    padding: 0; margin: 0;
+  }
+  body{
+  font-family: 'NanumSquare', sans-serif;
+  background-color: ivory;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  #calendar{
+    /* border: 2px solid red; */
+    width: fit-content;
+    margin-right: auto; margin-left: auto;
+    padding: 30px;
+    /* margin-top ; */
+  }
+
+  h2{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  table{
+    border-collapse: collapse;
+    width: 850px;
+    margin-top: 10px;
+    border-left: 3px solid ivory;
+    border-right: 3px solid ivory;
+}
+
+  td{
+    width: 100px;
+    height: 80px; 
+    padding: 10px;
+    vertical-align: top;
+    line-height:25px;
+    /* border: 1px solid black; */
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px dotted gray;
+  }
+
+  #row1{
+    font-size: 18px;
+    background-color: rgba(226, 172, 172, 0.356);
+  }
+
+  /* #row1 > td{
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+  } */
+  
+  .event{
+    color: darkred;
+    font-weight: 900;
+    
+  }
+  .date{
+    color: darkblue;
+    font-weight: 900;
+  }
+  table img{
+    width: 15px;
+    margin-left: 10px;
+  }
+  .last, .next{
+    color: rgba(0, 0, 0, 0.356);
+  }
+
+#h3{
+  display: inline-block;
+  vertical-align:middle;
+}
+#img{
+  display: inline-block;
+  vertical-align:middle;
+  position: relative;  left: 700px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="calendar">
+  <h2>월간 일정표</h2>
+  <h3 id="h3">2021년 5월</h3>
+  <a href="http://www.hoseo.ac.kr/Home/Main.mbz" target="_blank" title="호서대 사이트">
+    <img id="img" src="/img/hoseo logo.png" width="45px">
+  </a>
+
+  <table>
+    <tr id="row1">
+      <td>일</td>
+      <td>월</td>
+      <td>화</td>
+      <td>수</td>
+      <td>목</td>
+      <td>금</td>
+      <td>토</td>
+    </td>
+
+    <tr id="row2">
+      <td class="last">25</td>
+      <td class="last">26</td>
+      <td class="last">27</td>
+      <td class="last">28</td>
+      <td class="last">29</td>
+      <td class="last">30</td>
+      <td>1</td>
+    </td>
+
+    <tr id="row3">
+      <td>2</td>
+      <td>3<br>웹프로그래밍</td>
+      <td>4</td>
+      <td class="event">5<br>[어린이날 🎈]<br>웹프로그래밍<br>(보강)</td>
+      <td>6<br>웹프로그래밍</td>
+      <td class="date">7<br>친구</td>
+      <td class="event">
+        <a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=%EC%96%B4%EB%B2%84%EC%9D%B4%EB%82%A0" target="_blank" style="color:darkred;">
+        8<br>[어버이날 💐]<br><img src="/img/mouse arrow.png">
+      </td>
+    </td>
+
+    <tr id="row4">
+      <td class="date">
+        <a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_jum&query=%EC%95%84%EC%82%B0+%EC%95%88%EA%B3%BC" target="_blank" style="color:darkblue;">
+          9<br>병원<br><img src="/img/mouse arrow.png">
+        </a></td>
+      <td>10<br>웹프로그래밍</td>
+      <td>11</td>
+      <td>12</td>
+      <td>13<br>웹프로그래밍</td>
+      <td>14</td>
+      <td class="date">
+        <a href="https://search.naver.com/search.naver?where=view&sm=tab_jum&query=%EC%95%84%EC%82%B0+%EC%8B%A0%EC%A0%95%ED%98%B8+%EC%B9%B4%ED%8E%98" target="_blank" style="color:darkblue;">
+          15<br>카페<br><img src="/img/mouse arrow.png">
+        </a></td>
+    </td>
+
+    <tr id="row5">
+      <td>16</td>
+      <td>17<br>웹프로그래밍</td>
+      <td>18</td>
+      <td class="event">19<br>[석가탄신일]</td>
+      <td>20<br>웹프로그래밍</td>
+      <td>21</td>
+      <td>22</td>
+    </td>
+
+    <tr id="row6">
+      <td>23</td>
+      <td>24<br>웹프로그래밍</td>
+      <td>25</td>
+      <td>26</td>
+      <td>27<br>웹프로그래밍</td>
+      <td>28</td>
+      <td>29</td>
+    </td>
+    
+    <tr id="row7">
+      <td>30</td>
+      <td>31<br>웹프로그래밍</td>
+      <td class="last">1</td>
+      <td class="last">2</td>
+      <td class="last">3</td>
+      <td class="last">4</td>
+      <td class="last">5</td>
+    </td>
+  </table>
+</div>
+</body>
+</html>
