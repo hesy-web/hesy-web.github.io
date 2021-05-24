@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="stylesheet_topbar.css">
+        <link rel="stylesheet" href="stylesheet_mypage.css">
+    </head>
+    <body>
+<!-- [#topbar: #left #center #right] -->
+<header id="topbar">
+    <!-- [left] -->
+        <div id="left"><a href="main.html"><img src="img/logo.png" style="width: 180px;"></a></div>
+    <!-- [center] -->
+        <nav id="center">
+            <ul>
+                <li class="li1"><a href="https://www.naver.com" style="color: white; font-weight: 700;">모든 제품</a></li>
+                <li class="li2"><a href="sneakers.html">스니커즈</a></li>
+                <li class="li3"><a href="https://www.naver.com">의류</a></li>
+                <li class="li4"><a href="https://www.naver.com">잡화</a></li>
+            </ul>
+        </nav>
+    <!-- [right] -->
+        <nav id="right">
+            <ul>
+                <li><a href="https://www.naver.com">로그인</a></li>
+                <li><a href="https://www.naver.com">회원가입</a></li>
+                <li><a href="mypage.html">마이페이지</a></li>
+                <li><a href="https://www.naver.com">고객센터</a></li>
+                <li><a href="https://www.naver.com"><img src="img/search.png" style="width: 17px;"></a></li>
+            </ul>
+        </nav>
+</header>
+
+<!-- [mypage: #title #info #menu #state ] -->
+    <!-- [#title] -->
+        <h1 id="title">마이페이지</h1>
+
+    <!-- [#info] -->
+        <section id="info">
+            <img class="profile" src="img/mypage.png">
+            <div id="info_box">
+                <h2 class="name">webpro</h2>
+                <p class="mail">webpro@naver.com</p>
+                <a class="edit" href="https://www.naver.com">프로필 수정</a>
+            </div>
+            <div id="membership">
+                <h2 class="level">일반회원</h2>
+                <p class="title">회원등급</p>
+            </div>
+        </section>
+
+    <!-- [#menu] -->
+        <section id="menu">
+            <ul>
+                <a href=""> 
+                    <li class="order"> <!--주문내역-->
+                        <p> ORDER<br><span class="bold">주문내역</span></p>
+                    </li>
+                </a>
+
+                <a href=""> 
+                    <li class="mileage"> <!--적립금-->
+                            <p>MILEAGE<br><span class="bold">적립금</span></p>
+                    </li>
+                </a>
+
+                <a href=""> 
+                    <li class="adress"> <!--배송지 관리-->
+                        <p>ADRESS<br><span class="bold">배송지 관리</span></p>
+                    </li>
+                </a>
+                <a href=""> 
+                    <li class="wishlist"> <!--관심상품-->
+                        <p>WISH LIST<br><span class="bold">관심상품</span></p>
+                    </li>
+                </a>
+            </ul>
+        </section>
+
+    <!-- [#state] -->
+        <section id="state">
+            <table id="table">
+
+                <tr class="row1">
+                    <th colspan="5">주문처리 현황</th>
+                </tr>
+
+                <tr class="row2">
+                    <td>
+                        <a href="">입금전<br>1</a>
+                    </td>
+                    <td>
+                        <a href="">배송준비중<br>1</a>
+                    </td>
+                    <td>
+                        <a href="">배송중<br>0</a>
+                    </td>
+                    <td>
+                        <a href="">배송완료<br>2</a>
+                    </td>
+                    <td>
+                        <a href="">취소:0<br>교환:0<br>반품:0</a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </body>
+</html>
