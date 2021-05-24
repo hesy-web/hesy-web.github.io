@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="stylesheet_topbar.css">
+        <link rel="stylesheet" href="stylesheet_join.css">
+    </head>
+
+    <body>
+<!-- [#topbar: #left #center #right] -->
+<header id="topbar">
+    <!-- [left] -->
+        <div id="left"><a href="main.html"><img src="img/logo.png" style="width: 180px;"></a></div>
+    <!-- [center] -->
+        <nav id="center">
+            <ul>
+                <li class="li1"><a href="main.html" style="color: white; font-weight: 700;">모든 제품</a></li>
+                <li class="li2"><a href="sneakers.html">스니커즈</a></li>
+                <li class="li3"><a href="">의류</a></li>
+                <li class="li4"><a href="">잡화</a></li>
+            </ul>
+        </nav>
+    <!-- [right] -->
+        <nav id="right">
+            <ul>
+                <li><a href="login.html">로그인</a></li>
+                <li><a href="join.html">회원가입</a></li>
+                <li><a href="">마이페이지</a></li>
+                <li><a href="">고객센터</a></li>
+                <li><a href=""><img src="img/search.png" style="width: 17px;"></a></li>
+            </ul>
+        </nav>
+</header>
+
+<!-- [#title] -->
+<h1 id="title">회원가입</h1>
+
+<!-- [#login] -->
+<section id="join">
+    <form action="main.html">
+        <div id="id">
+            <span class="text">아이디</span><br>
+            <input class="textbox" type="text" placeholder=" 아이디를 입력해주세요">
+        </div>
+        
+        <div id="pass">
+            <span class="text">비밀번호</span><br>
+            <input class="textbox" type="password" placeholder=" 영문 대소문자, 숫자, 특수문자, 혼합 8~16자">
+            <br>
+            <input class="textbox" type="password" placeholder=" 비밀번호 확인">
+        </div>
+
+        <div id="name">
+            <span class="text">이름</span><br>
+            <input class="textbox" type="text" placeholder=" 이름을 입력해주세요">
+        </div>
+
+        <div id="call">
+            <span class="text">휴대폰 번호</span><br>
+            <input class="textbox" type="text" placeholder=" 숫자만 입력해주세요">
+        </div>
+
+        <div id="check">
+            <input type="checkbox"><span> 이용약관에 동의합니다.</span>
+            <br>
+            <input type="checkbox"><span> 본인은 만14세 이상입니다.</span>
+        </div>
+
+        <div id="button">
+            <button>가입하기</button>
+        </div>
+    </form>
+</section>
+
+</body>
+</html>
