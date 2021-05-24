@@ -1,0 +1,77 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+*{
+    padding: 0; margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    font-family: 'NanumSquare', sans-serif;
+    min-width: 1300px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#topbar{
+    /* border: 2px solid black; */
+    position:sticky; top:0;
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.328);
+    height: 140px;
+    /* width: 1455px; */
+    margin-left: auto; margin-right: auto;
+    z-index: 1;
+}
+/*left*/
+#left{
+    /* border: 2px solid red; */
+    /* display: inline; */
+    height: fit-content;
+    margin-top: auto; margin-bottom: auto; margin-left: 50px;
+}
+/*center*/
+#center{
+    /* border: 4px solid violet; */
+    margin-top: auto; margin-bottom: auto; margin-left:auto;
+    position: relative; left:100px;
+
+}
+#center li{
+    /* border: 4px solid red; */
+    display: inline;
+    font-weight: 900; font-size: 20px;
+
+}
+.li1{
+    border-radius: 100px;
+    background-color: black;
+    padding: 11px 21px 12px 21px;
+    /* border: 5px solid dodgerblue; */
+}
+.li2{
+    margin-left: 20px;
+}
+.li3{
+    margin-left: 25px;
+}
+.li4{
+    margin-left: 25px;
+}
+
+/*right*/
+#right{
+    /* border: 4px solid blue; */
+    margin-top: auto; margin-bottom: auto; 
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+#right > ul > li{
+    display: inline;
+    /* border: 2px solid turquoise; */
+    font-weight: 700; font-size: 20px;
+    margin: 3px;
+}
