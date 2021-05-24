@@ -4,9 +4,9 @@
     padding: 0; margin: 0;
     text-decoration: none;
     color: black;
+    font-family: 'NanumSquare', sans-serif;
 }
 body{
-    font-family: 'NanumSquare', sans-serif;
     min-width: 1300px;
 
 }
