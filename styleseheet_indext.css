@@ -1,0 +1,176 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+    *{
+       padding: 0px; margin: 0;
+       color: #9A161F;
+   }
+
+   body {
+       text-align: center;
+       font-family: 'NanumSquare', sans-serif;
+       background-color: #F4EFEA;
+   }
+/* [header]----------------------------------------------------------------------------------------------- */
+header{
+    border-bottom: 1px solid #9A161F;
+    box-shadow: 0 3px 7px #fbf5ef;
+    /* background-color: gainsboro; */
+    padding: 50px 0 50px 0;
+    margin: 0 0 50px 0;
+}
+
+#task{
+    /* border: 2px solid red; */
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+   #list{
+    /* border: 2px solid red; */
+    width: fit-content;
+    margin: 50px 0 50px 0;
+    margin: auto;
+   }
+   
+   ul{
+       display: flex;
+       list-style-type: none;
+       justify-content: center;
+   }
+
+   header li{
+    margin: 0 20px 0 20px;
+}
+
+    a{
+        color: 9A161F;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    a:hover{
+        font-weight: 900;
+    }
+
+
+/* [table]----------------------------------------------------------------------------------------------- */
+table, tr, th, td {
+    border: solid 2px #9A161F;
+    border-collapse: collapse;
+    padding: 5px 7px 5px 7px;
+    text-align: center;
+    margin: auto;
+}
+table{
+    height: 780px;
+}
+
+tr, td{
+ width: 130px;
+ height: 50px;
+}
+
+#table{
+    /* float: left; */
+    /* border: 2px solid pink; */
+    height: 780px; width: fit-content;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+    margin-right: 50px;
+    
+}
+
+.web{
+background-color: #B0E0e6;
+color: black;
+}
+
+.dc{
+ background-color: #d6b8cd;
+ color: black;
+}
+
+.stats{
+ background-color: #B0C4DE;
+ color: black;
+}
+
+/* [side]----------------------------------------------------------------------------------------------- */
+#side{
+    display: inline-block;
+    vertical-align: top;
+    /* border: 2px solid blueviolet; */
+    height: 780px; width: fit-content;
+    margin-left: 50px;
+}
+
+#side img{
+    background-color: #9A161F;
+    margin-bottom: 80px;
+    margin-top: 70px;
+    border-radius: 100px;
+    padding: 5px 10px 5px 10px;
+}
+
+
+#side p{
+    width: 210px;
+    padding: 20px 0 20px 0;
+    border: 2px solid #9A161F;
+    color: black;
+}
+
+#web{
+    background-color: #B0E0e6;
+    margin-bottom: 80px;
+
+}
+#dc{
+    background-color: #d6b8cd;
+    margin-bottom: 80px;
+
+}
+#stats{
+    background-color: #B0C4DE;
+    margin-bottom: 80px;
+
+}
+
+/* [footer]----------------------------------------------------------------------------------------------- */
+footer{
+    /* border: 2px solid green; */
+    border-top: 1px solid #9A161F;
+    padding: 25px 30px 20px 30px;
+    /* background-color: #9A161F; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+#info{
+    display: inline-block;
+    /* border: 2px solid red; */
+    width: fit-content;
+    line-height: 130%;
+    text-align: left;
+}
+#right{
+    display: inline-block;
+    /* border: 2px solid blue; */
+    width: fit-content;
+    position: relative; right: 35px
+}
+
+#hoseo_logo{
+    display: inline-block;
+    /* border: 2px solid red; */
+    width: fit-content;
+}
+
+footer img{
+    width: 70px;
+}

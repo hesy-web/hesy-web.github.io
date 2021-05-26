@@ -3,125 +3,143 @@
     <head>
         <meta charset="utf-8">
         <title>시간표</title>
-        <style>
-         @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
-         table, tr, th, td {
-                border: solid 2px #414141;
-                border-collapse: collapse;
-                padding: 10px;
-                text-align: center;
-                margin: auto;
-            }   
-            body {text-align: center;
-                     font-family: 'NanumSquare', sans-serif;
-            }
-
-            a{
-                color: darkblue;
-                text-decoration: none;
-                font-weight: bold;
-            }
-            p{
-                margin-bottom: 30px;
-            }
-        </style>
+        <link rel="stylesheet" href="styleseheet_indext.css">
     </head>
+
     <body>
-        <table style="background-color: #f6f6f6;">
-            <tr>
-                <th colspan="6">2021년 1학기 </th>
-            </tr>
-            <tr>
-                <th></th> <th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th>
-            </tr>
-            <tr>
-                <th>0교시<br>08:30~09:20</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th>1교시<br>09:30~10:20</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td style="background-color: #B0E0e6">웹 프로그래밍</td>
-                <td rowspan="2">세계의 식품과 문화</td>
-            </tr>
-            <tr>
-                <th>2교시<br>10:30~11:20</th>
-                <td rowspan="2" style="background-color: #B0E0e6">웹 프로그래밍</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th>3교시<br>11:30~12:20</th>
-                <td></td>
-                <td rowspan="2">대학영어회화2</td>
-                <td rowspan="2">알기쉬운<br>인간의 이해</td>
-                <td></td>
-            </tr>
-            <tr>
-                <th>4교시<br>12:30~13:20</th>
-                <td rowspan="2">커피의 이해</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th>5교시<br>13:30~14:20</th>
-                <td rowspan="3"style="background-color: #B0C4DE">경영통계</td>
-                <td rowspan="2">생명과학의<br>현대적 이해</td>
-                <td></td>
-                <td>채플</td>
-            </tr>
-            <tr>
-                <th>6교시<br>14:30~15:20</th>
-                <td></td>
-                <td rowspan="2" style="background-color: #d6b8cd">디지털콘텐츠<br>비즈니스 개론</td>
-                <td></td>
-            </tr>
-            <tr>
-                <th>7교시<br>15:30~16:20</th>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th>8교시<br>16:30~17:20</th>
-                <td></td>
-                <td style="background-color: #d6b8cd">디지털콘텐츠<br>비즈니스 개론</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th>9교시<br>17:30~18:20</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td rowspan="2">인문학과<br>명화속 성 이야기</td>
-            </tr>
-            <tr>
-                <th>10교시<br>18:20~19:05</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </table>
-        <br>
-    <p>
-        <a href="회원가입 페이지.html" target="_blank" title="회원가입">[회원가입] </a>
-        <a href="rubato.html" target="_blank" title="루바토 펜션">[루바토 펜션 안내]</a>   
-        <a href="행사안내.html" target="_blank" title="행사안내" >[행사안내]</a> 
-        <a href="야간개장.html" target="_blank" title="야간개장" >[야간개장안내]</a> 
-        <a href="세일안내장.html" target="_blank" title="세일안내장" >[세일안내장]</a> 
-        <a href="월간일정표.html" target="_blank" title="월간일정표" >[월간일정표]</a> 
-        <a href="list.html" target="_blank" title="의류 판매 목록" >[의류 판매 목록]</a> 
-    </p>    
+
+        <header>
+            <nav id="list">
+                <p id="task">TASK LIST</p>
+                <ul>
+                    <li><a href="회원가입 페이지.html" target="_blank" title="회원가입">회원가입</a></li>
+                    <li><a href="rubato.html" target="_blank" title="루바토 펜션">루바토 펜션 안내</a></li>
+                    <li><a href="행사안내.html" target="_blank" title="행사안내" >행사안내</a></li>
+                    <li><a href="야간개장.html" target="_blank" title="야간개장" >야간개장안내</a></li>
+                    <li><a href="세일안내장.html" target="_blank" title="세일안내장" >세일안내장</a></li>
+                    <li><a href="월간일정표.html" target="_blank" title="월간일정표" >월간일정표</a></li>
+                    <li><a href="list.html" target="_blank" title="의류 판매 목록" >의류 판매 목록</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="table">
+            <table>
+                <tr>
+                    <th colspan="6">2021년 1학기 </th>
+                </tr>
+                <tr>
+                    <th></th> <th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th>
+                </tr>
+                <tr>
+                    <th>0교시<br>08:30~09:20</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>1교시<br>09:30~10:20</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="web">웹 프로그래밍</td>
+                    <td rowspan="2">세계의 식품과 문화</td>
+                </tr>
+                <tr>
+                    <th>2교시<br>10:30~11:20</th>
+                    <td rowspan="2" class="web">웹 프로그래밍</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>3교시<br>11:30~12:20</th>
+                    <td></td>
+                    <td rowspan="2">대학영어회화2</td>
+                    <td rowspan="2">알기쉬운<br>인간의 이해</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>4교시<br>12:30~13:20</th>
+                    <td rowspan="2">커피의 이해</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>5교시<br>13:30~14:20</th>
+                    <td rowspan="3" class="stats"="background-color: #B0C4DE">경영통계</td>
+                    <td rowspan="2">생명과학의<br>현대적 이해</td>
+                    <td></td>
+                    <td>채플</td>
+                </tr>
+                <tr>
+                    <th>6교시<br>14:30~15:20</th>
+                    <td></td>
+                    <td rowspan="2" class="dc">디지털콘텐츠<br>비즈니스 개론</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>7교시<br>15:30~16:20</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>8교시<br>16:30~17:20</th>
+                    <td></td>
+                    <td class="dc">디지털콘텐츠<br>비즈니스 개론</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>9교시<br>17:30~18:20</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td rowspan="2">인문학과<br>명화속 성 이야기</td>
+                </tr>
+                <tr>
+                    <th>10교시<br>18:20~19:05</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </section>
+
+        <aside id="side">
+            <div><a href="https://learn.hoseo.ac.kr/" title="LMS" target="_blank"><img src="img2/logo.png"></a></div>
+            <div id="p">
+                <p id="web">웹프로그래밍</p>
+                <p id="dc">디지털콘텐츠 비즈니스 개론</p>
+                <p id="stats">경영통계</p>
+                <p id="elective" style="color: #9A161F;">교양</p>
+            </div>
+        </aside>
+
+        <div id="clear"></div>
+        
+        <footer>
+            <div id="info">
+                양희선
+                <br>
+                디지털기술경영학과
+                <br>
+                20200375@vision.hoseo.edu
+            </div>
+
+            <div id="right">
+                © 2021 양희선 All rights reserved.
+            </div>
+
+            <div id="hoseo_logo">
+                <img src="img2/hoseo logo.png">
+            </div>
+        </footer>
     </body>
 </html>
