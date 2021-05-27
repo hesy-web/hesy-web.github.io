@@ -4,12 +4,13 @@
     padding: 0; margin: 0;
     text-decoration: none;
     list-style-type: none;
+    font-family: 'NanumSquare', sans-serif;
+
 }
 body{
-    font-family: 'NanumSquare', sans-serif;
     min-width: 1300px;
 }
-a{
+#topbar a{
     text-decoration: none;
     color: black;
 }
@@ -26,50 +27,50 @@ a{
     z-index: 1;
 }
 /*left*/
-#left{
+#topbar #left{
     /* border: 2px solid red; */
     /* display: inline; */
     height: fit-content;
     margin-top: auto; margin-bottom: auto; margin-left: 50px;
 }
 /*center*/
-#center{
+#topbar #center{
     /* border: 4px solid violet; */
     margin-top: auto; margin-bottom: auto; margin-left:auto;
     position: relative; left:100px;
 
 }
-#center li{
+#topbar #center li{
     /* border: 4px solid red; */
     display: inline;
     font-weight: 900; font-size: 20px;
 
 }
-.li1{
+#topbar .li1{
     border-radius: 100px;
     background-color: black;
     padding: 11px 21px 12px 21px;
     /* border: 5px solid dodgerblue; */
 }
-.li2{
+#topbar .li2{
     margin-left: 20px;
 }
-.li3{
+#topbar .li3{
     margin-left: 25px;
 }
-.li4{
+#topbar .li4{
     margin-left: 25px;
 }
 
 /*right*/
-#right{
+#topbar #right{
     /* border: 4px solid blue; */
     margin-top: auto; margin-bottom: auto; 
     margin-left: auto;
     margin-right: 50px;
 }
 
-#right > ul > li{
+#topbar #right > ul > li{
     display: inline;
     /* border: 2px solid turquoise; */
     font-weight: 700; font-size: 20px;

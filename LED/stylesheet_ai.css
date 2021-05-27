@@ -1,0 +1,83 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+*{
+    padding: 0; margin: 0;
+    text-decoration: none;
+    color: black;
+    font-family: 'NanumSquare', sans-serif;
+}
+
+body{
+    min-width: 1300px;
+}
+
+#top{
+    /* border: 2px solid green; */
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+/* [#title]----------------------------------- */
+#top #title{
+    /* border: 2px solid red; */
+    margin-bottom: 30px;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#top p{
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+/* [#box]-------------------------------------- */
+#top #box{
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: rgb(250, 250, 250);
+    margin-bottom: 30px;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/* [#file]------------------------------------- */
+#top #file{
+    /* border: 2px solid blue; */
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+#top #file input{
+    width: 170px;
+    /* border: 2px solid black; */
+}
+
+/* [#bottom]---------------------------------------------- */
+#bottom{
+    /* border: 2px solid red; */
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.arrow{
+    width: 50px;
+    height: 50px;
+}
+
+.arrow:hover, .pro:hover{
+    cursor: pointer;
+}
+
+.pro{
+    width: 180px;
+    margin: 0 20px 0 20px;
+    border: 2px solid black;
+}
