@@ -1,12 +1,91 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="stylesheet_topbar.css">
-        <link rel="stylesheet" href="stylesheet_notice.css">
-    </head>
+<head>
+<meta charset='utf-8'>
+<link rel="stylesheet" href="stylesheet_topbar.css">
+<style>
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'NanumSquare', sans-serif;
+    color: black;
+}
 
-    <body>
+/* [#title] */
+#title h3{
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    margin: 80px 0 80px 0;
+}
+
+/* [#menu] */
+#menu{
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 80px; margin-bottom: 80px;
+    width: 1200px;
+}
+#menu ul{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+#menu li{
+    margin: 0 60px 0 60px;
+}
+
+#menu #notice{
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+#menu #intro{
+    color: gray;
+}
+
+/* [#contents] */
+#contents #info{
+    width: 700px;
+    background-color: #e2e2e2;
+    margin: auto;
+    margin-bottom: 80px;
+    padding: 15px 30px 15px 30px;
+    /* border: 2px solid green; */
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#contents ul {
+    width: 760px;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+#contents li{
+    list-style-type: none;
+}
+
+#contents #main {
+    font-weight: bolder;
+    font-size: 21px;
+    list-style-type: none;
+    border-bottom: solid 1px gray;
+    padding: 10px 15px 10px 15px;
+}
+
+#contents .point {
+    font-size: 18px;
+    padding: 10px 15px 10px 15px;
+    border-bottom: solid 1px gray;
+    color: black;
+}
+</style>
+</head>
+
 <!-- [#topbar: #left #center #right] -->
 <header id="topbar">
     <!-- [left] -->
@@ -32,30 +111,35 @@
         </nav>
 </header>
 
+<!-- [#title] -->
+<section id="title">
+    <h3>고객센터</h3>
+</section>
+
+<!-- [#menu] -->
 <nav id="menu">
     <ul>
-        <li><a id="qna" href="">자주 묻는 질문</a></li>
-        <li><a id="notice"href="notice.html">서비스 소개</a></li>
+        <li><a id="notice" href="notice.html">자주 묻는 질문</a></li>
+        <li><a id="intro" href="intro.html">서비스 소개</a></li>
      </ul>
 </nav>
 
+<!-- [#contents] -->
 <section id="contents">
-    <div id="title">
-        <h3>한정판이 지배하는 세상</h3>
-        <p>다양한 한정판 제품들을 판매하고 제품 정보를 제공해주는 플랫폼</p>
+    <div id="info">
+    ※ 아래 자주 묻는 질문 목록에서 문의하실 내용이 있는지 확인해주세요.<br>
+    ※ 고객센터는 평일 10-18시까지 운영됩니다. 점심(12시-13시) 주말과 공휴일은 휴무입니다.<br>
+    ※ 고객센터 운영시간 외에는 문의게시판에 내용을 남겨주시면 신속하게 도와드리겠습니다.        
     </div>
 
-    <div id="icon">
-        <img src="img/nt1.png">
-        <img src="img/nt2.png">
-        <img src="img/nt3.png">
-        <img src="img/nt4.png">
-    </div>
-
-    <div id="logo">
-        <img src="img/logo_cen.png">
-    </div>
+    <ul>
+        <li id="main"><p>자주 묻는 질문</p></li>
+        <li class="point">구매와 판매는 어떤식으로 이루어지나요?</li>
+        <li class="point">구매나 판매를 취소하고 싶어요.</li>
+        <li class="point">포인트 사용방법이 궁금해요.</li>
+        <li class="point">해외배송이 가능한가요?</li>
+        <li class="point">판매과정을 설명해주세요.</li>
+    </ul>
 </section>
-
 </body>
 </html>
