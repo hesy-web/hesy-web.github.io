@@ -72,10 +72,8 @@ body{
     }
 
 #login #button button:hover{
-        background-color: black;
-        color: white;
-        cursor:pointer;
-        box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.356);
+    background-color: #292929;
+    cursor:pointer;
 }
 
 #login #more{
