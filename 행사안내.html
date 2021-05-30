@@ -3,6 +3,10 @@
     <head>
         <meta charset="utf-8">
         <style>
+            @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+            *{
+                font-family: 'NanumSquare', sans-serif;
+            }
             h1{
                 color: red;
             }
@@ -16,8 +20,9 @@
             .purple{
                 color: purple;
             }
-            li{
-                list-style: circle;
+            ul{
+                list-style-type: none;
+                padding: 0; margin: 0;
             }
             #green{
                 color: green;
@@ -46,8 +51,8 @@
             <li><span class="bold">주최</span> : 호서대학교 디지털기술경영학과</li>
             <li><span class="bold">사회</span> : <span id="blue">20200375 <a href="profile.html" target="_blank" title="프로필" style="text-decoration: none; color: blue;">양희선</a></span></li>
             <li><span class="bold">문의사항</span> : <br><textarea rows="5" cols="50"></textarea></li>
-            <button type="submit" title="접수완료">문의사항제출</button>
         </ul>
+        <button type="submit" title="접수완료">문의사항제출</button>
         </form>
     </body>
 </html>
