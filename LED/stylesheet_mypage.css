@@ -110,7 +110,7 @@ body{
     justify-content: center;
     text-align: center;
 }
- .order, .mileage, .adress, .wishlist{
+ .order, .mileage, .address, .wishlist{
      /* border: 2px solid blue; */
      padding: 40px;
      width: 100px; height: 100px;
@@ -123,7 +123,7 @@ body{
     }
 
 .order:hover, .mileage:hover,
-.adress:hover, .wishlist:hover{
+.address:hover, .wishlist:hover{
     background-color: #dbdbdb;
 }
 
