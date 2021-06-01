@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>LED 결제</title>
+<link rel="stylesheet" href="stylesheet_topbar.css">
+<style>
+    @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+    
+    *{
+        padding: 0; margin: 0;
+        text-decoration: none;
+        color: black;
+        font-family: 'NanumSquare', sans-serif;
+    }
+
+    body{
+        min-width: 1300px;
+    }
+
+    #contents{
+        border: 2px solid black;
+        width: fit-content;
+        /* width: 1108px; */
+        height: 520px;
+        margin: 0 auto;
+        margin-top: 80px; margin-bottom: 80px;
+    }
+
+    #contents #left{
+        /* border: 2px solid red; */
+        width: 700px;
+        height: 520px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #contents #top{
+        /* border: 2px solid blue; */
+        /* border-bottom: 2px solid gray; */
+        width: 640px;
+        height: 130px;
+        padding: 70px 0;
+        padding-left: 60px;
+    }
+    #contents #top h3{
+        font-size: 21px;
+        font-weight: 900;
+    }
+
+    #contents #choice{
+        /* border: 2px solid red; */
+        width: fit-content;
+        margin-top: 30px;   
+        font-size: 21px;
+    }
+
+    #contents #bottom{
+        /* border: 2px solid green; */
+        width: 640px;
+        height: 100px;
+        padding: 70px 0;
+        padding-left: 60px;
+        font-size: 21px;
+    }
+    #contents #bottom select{
+        width: 200px; height: 30px;
+        font-size: 15px;
+    }
+
+    #contents #right{
+        /* border: 2px solid purple; */
+        border-left: 2px solid black;
+        width: 400px;
+        height: 520px;
+        /* display: inline-block; */
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #contents #right_wrap{
+        /* border: 2px solid red; */
+        width: fit-content; height: fit-content;
+    }
+    #contents #right_wrap > p{
+        font-size: 21px;
+        font-weight: 900;
+        padding-left: 5px;
+    }
+
+    #contents #right h1{
+        font-size: 57px;
+    }
+    #contents #right .red{
+        color: red;
+    }
+    
+    #contents #button{
+        display: flex;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    #contents #button .pay{
+        color: white;
+        background-color: black;
+        padding: 15px 40px;
+        border-radius: 30px;
+        margin-right: 20px;
+    }
+
+    #contents #button .cancel{
+        background-color: #dadada;
+        padding: 15px 40px;
+        border-radius: 30px;
+    }
+
+    #contents #button .pay:hover{
+        background-color: #292929;
+    }
+
+    #contents #button .cancel:hover{
+        background-color: #cecece;
+    }
+</style>
+</head>
+<body>
+<!-- [#topbar: #left #center #right] -->
+<header id="topbar">
+    <!-- [left] -->
+        <div id="left"><a href="main.html"><img src="img/logo.png" style="width: 180px;"></a></div>
+    <!-- [center] -->
+        <nav id="center">
+            <ul>
+                <li class="li1"><a href="main.html" style="color: white; font-weight: 700;">모든 제품</a></li>
+                <li class="li2"><a href="sneakers.html">스니커즈</a></li>
+                <li class="li3"><a href="clothes.html">의류</a></li>
+                <li class="li4"><a href="accessory.html">잡화</a></li>
+            </ul>
+        </nav>
+    <!-- [right] -->
+        <nav id="right">
+            <ul>
+                <li><a href="login.html">로그인</a></li>
+                <li><a href="join.html">회원가입</a></li>
+                <li><a href="mypage.html">마이페이지</a></li>
+                <li><a href="notice.html">고객센터</a></li>
+                <li><a href="serch.html"><img src="img/search.png" style="width: 17px;"></a></li>
+            </ul>
+        </nav>
+</header>
+
+<section id="contents">
+    <div id="left">
+        <div id="top">
+            <h3>결제정보 입력</h3>
+            <div id="choice">
+                <input type="radio" name="info"> 신용/체크카드
+                　 　 　
+                <input type="radio" name="info"> 무통장입금
+                　 　 　
+                <input type="radio" name="info"> 휴대폰결제
+                <br><br>
+                <input type="radio" name="info"> 네이버페이
+                　 　 　 　
+                <input type="radio" name="info"> 카카오페이
+                　 　 　
+                <input type="radio" name="info"> 토스
+            </div>
+        </div>
+<hr>
+        <div id="bottom">
+            <div>
+                카드종류 &nbsp;
+                <select>
+                    <option>카드종류를 선택해주세요.</option>
+                    <option>신한카드</option>
+                    <option>국민카드</option>
+                    <option>현대카드</option>
+                    <option>삼성카드</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                할부선택 &nbsp;
+                <select>
+                    <option>할부개월을 선택해주세요.</option>
+                    <option>일시불</option>
+                    <option>2개월</option>
+                    <option>3개월</option>
+                    <option>4개월</option>
+                    <option>5개월</option>
+                    <option>6개월</option>
+                </select>
+            </div>
+    
+        </div>
+    </div>
+
+    <div id="right">
+        <div id="right_wrap">
+        <p>최종 결제금액</p>
+        <h1><span class="red">500,000<span>원</h1>
+
+        <div id="button">
+            <a href="completed.html">
+                <p class="pay">결제하기</p>
+            </a>
+
+            <a href="product.html">
+                <p class="cancel">취소</p>
+            </a>
+        </div>
+        </div>
+    </div>
+</section>
+</body>
