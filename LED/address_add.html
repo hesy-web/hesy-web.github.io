@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>LED 배송지</title>
+        <link rel="stylesheet" href="stylesheet_topbar.css">
+        <link rel="stylesheet" href="stylesheet_address_add.css">
+    </head>
+
+    <body>
+<!-- [#topbar: #left #center #right] -->
+<header id="topbar">
+    <!-- [left] -->
+        <div id="left"><a href="main.html"><img src="img/logo.png" style="width: 180px;"></a></div>
+    <!-- [center] -->
+        <nav id="center">
+            <ul>
+                <li class="li1"><a href="main.html" style="color: white; font-weight: 700;">모든 제품</a></li>
+                <li class="li2"><a href="sneakers.html">스니커즈</a></li>
+                <li class="li3"><a href="clothes.html">의류</a></li>
+                <li class="li4"><a href="accessory.html">잡화</a></li>
+            </ul>
+        </nav>
+    <!-- [right] -->
+        <nav id="right">
+            <ul>
+                <li><a href="login.html">로그인</a></li>
+                <li><a href="join.html">회원가입</a></li>
+                <li><a href="mypage.html">마이페이지</a></li>
+                <li><a href="notice.html">고객센터</a></li>
+                <li><a href="serch.html"><img src="img/search.png" style="width: 17px;"></a></li>
+            </ul>
+        </nav>
+</header>
+
+<!-- [#title]/ -->
+<section id="title">
+    <h3>배송지 추가</h3>
+</section>
+
+<!-- [#login] -->
+<section id="add">
+    <form action="address.html">
+        <div id="name">
+            <span class="text">이름</span><br>
+            <input class="textbox" type="text" placeholder=" 이름을 입력해주세요">
+        </div>
+        
+        <div id="number">
+            <span class="text">휴대폰 번호</span><br>
+            <input class="textbox" type="text" placeholder=" 숫자만 입력해주세요">
+        </div>
+
+        <div id="code">
+            <div id="">
+                <span class="text">우편번호</span><br>
+                <input class="textbox" type="text" placeholder=" 우편번호를 입력해주세요">
+            </div>
+
+            <p id="code_btn">우편번호</p>
+        </div>
+
+        <div id="address">
+            <span class="text">주소</span><br>
+            <input class="textbox" type="text" placeholder=" 우편번호 검색 후 자동입력">
+            <br>
+            <input class="textbox" type="text" placeholder=" 건물, 아파트, 동/호수 입력">
+        </div>
+
+        <div id="check">
+            <input type="checkbox"><span> 기본 배송지로 설정</span>
+        </div>
+
+        <div id="button">
+            <button id="save">저장</button>
+            <button id="cancel">취소</button>
+        </div>
+    </form>
+</section>
+
+</body>
+</html>

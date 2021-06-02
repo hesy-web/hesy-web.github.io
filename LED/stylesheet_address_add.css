@@ -1,0 +1,134 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+*{
+    padding: 0; margin: 0;
+    text-decoration: none;
+    color: black;
+    font-family: 'NanumSquare', sans-serif;
+}
+
+body{
+    min-width: 1300px;
+}
+
+/* [#title] */
+#title h3{
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    margin: 80px 0 80px 0;
+}
+
+/* [#add] */
+#add{
+    /* border: 2px solid red; */
+    margin-bottom: 50px;
+}
+
+#add #name{
+    /* border: 2px solid blue; */
+    width: fit-content;
+    margin: auto;
+}
+
+#add #number{
+    /* border: 2px solid green; */
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#add #code{
+    /* border: 2px solid green; */
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    left: 64px;
+}
+
+#add #code_btn{
+    width: fit-content;height: fit-content;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    margin-left: 20px;
+}
+
+#add #code_btn:hover{
+    background-color: #292929;
+    cursor: pointer;
+}
+
+#add #address{
+    /* border: 2px solid green; */
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#add .text{
+    font-size: 23px;
+    font-weight:600;
+}
+#add .textbox{
+    width: 320px; height: 35px;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 2px solid rgb(34, 34, 34);
+    /* background-color: #f5f5f5; */
+}
+
+#add .textbox:focus{
+    outline:none
+}
+
+#add #check{
+    /* border: 2px solid red; */
+    margin: auto;
+    width: 320px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#add #button{
+    /* border: 2px solid green; */
+    width: 320px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#add #button button{
+    text-align: center;
+    width: 120px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+#save{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+
+}
+
+#cancel{
+    background-color: #dadada;
+    border: 2px solid #dadada;
+    color: black;
+}
+
+#add #save:hover{
+    cursor:pointer;
+    background-color: #292929;
+}
+#add #cancel:hover{
+    cursor:pointer;
+    background-color: #cecece;
+}
