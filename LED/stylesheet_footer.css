@@ -1,0 +1,47 @@
+footer *{
+    color: rgb(200, 200, 200);
+}
+
+footer{
+    font-size: 14px;
+    /* border: 2px solid red; */
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(51, 51, 51);
+    margin-top: 100px;
+}
+
+footer #comnpany{
+/* border: 2px solid white; */
+width: fit-content;
+}
+
+footer #word{
+    /* border: 2px solid sienna; */
+    display: flex;
+    font-weight: 900;
+    width: fit-content;
+}
+
+footer #info{
+    margin-top: 10px;
+    /* border: 2px solid blue; */
+    line-height: 140%;
+    width: fit-content;
+
+}
+
+footer #right{
+    /* border: 2px solid red; */
+    display: flex;
+    height: fit-content;
+    margin-top: 85px;
+    /* align-items: flex-end; */
+}
+
+footer #notice{
+    /* border: 2px solid green; */
+    width: fit-content;
+    line-height: 140%;
+}

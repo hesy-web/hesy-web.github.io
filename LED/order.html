@@ -4,6 +4,7 @@
 <meta charset='utf-8'>
 <title>LED 주문내역</title>
 <link rel="stylesheet" href="stylesheet_topbar.css">
+<link rel="stylesheet" href="stylesheet_footer.css">
 <style>
 @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 *{margin: 0; padding: 0; font-family: 'NanumSquare', sans-serif;}
@@ -38,7 +39,7 @@
 }
 .maison1 {float: left; height: 170px; padding-top: 20px;}
 .name1{width: 250px; margin-left: 0px;}
-p{font-weight:bold;}
+#contents p{font-weight:bold;}
 .name2{font-size: 12px;} .size{font-size: 14px;}
 .quantity {float:left; width: 100px; height: 170px; 
 padding-top: 20px; padding-left: 55px;}
@@ -48,7 +49,7 @@ padding-left: 55px;
 }
 .line { padding-bottom: 20px; border-bottom: solid 1px lightgray;
     height: 180px; margin: 10px;}
-#info{float: left; height: 170px; padding-top: 20px; padding-left: 45px;}
+#contents #info{float: left; height: 170px; padding-top: 20px; padding-left: 45px;}
 .nike{float: left; height: 170px; padding-top: 10px; padding-bottom: 20px;}
 </style>
 </head>
@@ -74,7 +75,7 @@ padding-left: 55px;
                 <li><a href="join.html">회원가입</a></li>
                 <li><a href="mypage.html">마이페이지</a></li>
                 <li><a href="notice.html">고객센터</a></li>
-                <li><a href="serch.html"><img src="img/search.png" style="width: 17px;"></a></li>
+                <li><img src="img/search.png" style="width: 17px;"></li>
             </ul>
         </nav>
 </header>
@@ -103,11 +104,11 @@ padding-left: 55px;
 
     <div class="order">2021.04.27<br>
         [202104227-00325]</div>
-    <div class="nike"><img src="img/나이키.png"></div>
+    <div class="nike"><img src="img/sn1.png" style="width: 170px;"></div>
     <div id="info"> 
-        <div class="name1"><p>Dunk Low Retro University Blue</p></div>
+        <div class="name1"><p>(W) Nike Dunk Low Black</p></div>
         <br>
-        <div class="name2">나이키 덩크 로우 레트로 유니버시티 블루</div>
+        <div class="name2">(W) 나이키 덩크 로우 블랙</div>
         <br>
         <div class="size">[ 사이즈 : 260 ]</div>
     </div>
@@ -115,5 +116,33 @@ padding-left: 55px;
     <div class="price">260,000원</div>
     <div class="line"></div>
 </section>
+
+<footer>
+    <div id="comnpany">
+        <div id="word">
+            <p style="margin-right: 20px;">개인정보처리방침</p>
+            <p>이용약관</p>
+        </div>
+        <div id="info">
+            <p>상호: (주)LED | 대표자: 점수잘조</p>
+            <p>이메일: LED@naver.com</p>
+            <p>주소: 충청남도 천안시 동남구 호서대길 12</p>
+            <p>배송지: 충청남도 천안시 동남구 호서대길 12 LED</p>
+        </div>
+    </div>
+
+    <div id="right">
+        Copyright ⓒ 2021 LED Corp. All Rights Reserved.
+    </div>
+
+    <div id="notice">
+        <h3>고객센터 1234 - 5678</h3>
+        <br>
+        <p>운영시간 10:00 - 18:00 (주말, 공휴일 휴무)</p>
+        <p>점심시간 12:00 - 13:00</p>
+        <p>고객센터 운영시간 외에는 문의게시판에 남겨주세요</p>
+    </div>
+</footer>
+
 </body>
 </html>
