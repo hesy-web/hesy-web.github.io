@@ -1,0 +1,201 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+*{
+    padding: 0; margin: 0;
+    text-decoration: none;
+    color: black;
+    font-family: 'NanumSquare', sans-serif;
+
+}
+
+body{
+    min-width: 1300px;
+}
+
+/* [#section]-------------------------- */
+#contents{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: auto;
+    margin-top: 80px; margin-bottom: 80px
+}
+/* [#left]-------------------------------------------- */
+#contents #left{
+    /* border: 2px solid red; */
+    width: 400px;
+    /* margin-left: 100px; */
+    display: inline-block;
+}
+
+#contents #left img{
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+#contents #ar{
+    display: table;
+    margin: auto;
+}
+#contents #ar p{
+    color: white;
+    font-size: 18px;
+    background-color: #B5252E;
+    border-radius: 30px;
+    padding: 20px 40px 20px 40px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+}
+#contents #ar p:hover{
+    background-color: #88151d;
+}
+
+/* [#right]-------------------------- */
+#contents #right{
+    /* border: 2px solid blue; */
+    width: 600px;
+}
+
+/* #name------------------------------------------- */
+#contents #name{
+    /* border: 2px solid purple; */
+    margin-bottom: 100px;
+}
+
+#contents #name h3{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+#contents #name p{
+    font-size: 24px;
+}
+
+/* #table----------------- */
+
+#contents #table table{
+    width: 600px;
+    margin-bottom: 40px;
+}
+
+#contents #table table, #table th, #table td{
+    border-collapse: collapse;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+}
+
+#contents .gray{
+    background-color: #f5f5f5;
+}
+
+/* #size---------------------------------- */
+#contents #size{
+    margin-bottom: 125px;
+}
+
+#contents #size select{
+    width: 200px; height: 30px;
+    margin-left: 10px;
+    /* background-color: #f5f5f5; */
+}
+#contents #size select:focus{
+    outline:none
+}
+
+
+/* #btn-------------- */
+#contents #btn{
+    /* border: 2px solid orange; */
+    display: flex;
+    justify-content: space-around;
+}
+
+#contents #price{
+    display: inline;
+}
+#contents #price p{
+    color: white;
+    font-size: 18px;
+    background-color: #000000;
+    border-radius: 30px;
+    padding: 20px 40px 20px 40px;
+    display: inline;
+    text-align: center;
+    width: 150px; height: 30px;
+
+}
+#contents #price p:hover{
+    background-color: #292929;
+}
+
+#contents #table{
+    display: inline;
+}
+#contents #table p{
+    color: black;
+    font-size: 18px;
+    background-color: #e6e6e6;
+    border-radius: 30px;
+    padding: 20px 40px 20px 40px;
+    display: inline;
+    vertical-align: middle;
+    text-align: center;
+    width: 150px; height: 30px;
+
+}
+#contents #table p:hover{
+    background-color: #cecece;
+}
+
+/* [시세비교표] */
+
+/* [#right]------------------------------------------------ */
+#contents #compare{
+    /* border: 2px solid green; */
+    /* margin-top: 180px; */
+    width: 600px;
+}
+
+#title h3{
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#contents #compare img{
+    width: 600px;
+    margin-bottom: 30px;
+    /* height: 240px; */
+}
+
+#compare table, #compare tr, #compare th, #compare td{
+    padding: 13px 7px 13px 7px;
+    border-collapse: collapse;
+    text-align:left;
+    /* border: 2px solid rebeccapurple; */
+}
+
+#compare table{
+    width: 600px;
+    border-bottom: 2px solid black;
+    /* border: 2px solid purple; */
+}
+#compare th{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#compare td{
+    border-bottom: 1px solid gray;
+}
+
+hr{
+    margin-top: 130px;
+    margin-bottom: 110px;
+}
