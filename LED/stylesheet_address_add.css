@@ -80,7 +80,7 @@ body{
     margin-top: 5px;
     border: none;
     border-bottom: 2px solid rgb(34, 34, 34);
-    /* background-color: #f5f5f5; */
+    font-family: none;
 }
 
 #add .textbox:focus{
